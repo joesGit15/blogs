@@ -8,6 +8,7 @@ g_file_regexp="[\d]{2}.md"
 
 printUsage(){
     echo "This command usage:"
+    echo "    -c     :count every tag" #$1=-c
     echo "    -f tag :find tag" #$1=-f tag
     echo "    -l     :list all the tags had used" #$1=-l
     echo "    -r oldtag newtag [inputfile]:replace tag"  #$1=-t $2=oldtag $3=newtag
@@ -42,6 +43,30 @@ listTags() {
 
     tags=`sort -u $tmpfile`
     echo "$tags"
+
+    `rm $tmpfile`
+}
+
+countTags() {
+    tmpfile="./.tmp_tags.md"
+    if [ -e $tmpfile ]
+    then
+        echo "clear temp tags file"
+        `echo "" > $tmpfile`
+    else
+        `touch $tmpfile`
+    fi
+
+    files=`find . | grep -P $g_file_regexp | sort`
+    for i in $files
+    do
+        `cat $i | cut -d "|" -f 4 | sort -u >> $tmpfile` #4 means tag filed
+    done
+
+    tags=`sort -u $tmpfile`
+    for i in $tags
+    do
+    done
 
     `rm $tmpfile`
 }
@@ -87,6 +112,12 @@ replaceTags(){
 if [ -z $1 ]
 then
     printUsage
+    exit 0
+fi
+
+if [ $1 == "-c" ]
+then
+    countTags
     exit 0
 fi
 
