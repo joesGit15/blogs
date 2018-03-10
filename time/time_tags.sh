@@ -5,6 +5,7 @@
 # 2. if function argument has space char, use "$1"
 
 g_file_regexp="[\d]{2}.md"
+g_file_regexp_include="*[0-9][0-9].md"
 
 printUsage(){
     echo "This command usage:"
@@ -64,13 +65,18 @@ countTags() {
     done
 
     tags=`sort -u $tmpfile`
+    echo "" > $tmpfile
     for i in $tags
     do
+        num=`grep $i -rn --include=$g_file_regexp_include . | wc -l`
+        echo " $num => $i" >> $tmpfile
     done
 
+    sort -n $tmpfile
     `rm $tmpfile`
 }
 
+# you can also to replace any char and string, not just tag string
 replaceTags(){
 
     oldTag="$1"
