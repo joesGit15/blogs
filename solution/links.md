@@ -1,6 +1,7 @@
 ### Personal Blogs
 
 - [liaoxuefeng](http://www.liaoxuefeng.com/)
+    -[未来世界的幸存者](http://survivor.ruanyifeng.com/index.html)
 
 - [Qt_CSDN](http://blog.csdn.net/czyt1988/article/category/1654485)
 
@@ -44,4 +45,16 @@
 ### Qt
 
 - [TreeWidget](blog.csdn.net/czyt1988/article/details/19171727)
+- [Esc Key Event](http://blog.csdn.net/liang19890820/article/details/50357323)
 
+### Linux
+
+- [批量杀死进程](https://www.cnblogs.com/yiyide266/p/6541809.html)
+
+### Download
+
+- [Linux_mirrors]http://mirrors.ocf.berkeley.edu/
+
+### Other
+
+- [IT黑名单](http://black.bhusk.com/index)
