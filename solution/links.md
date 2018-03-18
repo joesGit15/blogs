@@ -2,13 +2,22 @@
 
 - [liaoxuefeng](http://www.liaoxuefeng.com/)
 
+- [Qt_CSDN](http://blog.csdn.net/czyt1988/article/category/1654485)
+
 ### Bash
 
 - [en_bash](http://ss64.com/bash/)
 - [cn_bash](http://shellbaike.com/)
 
+### FFmpeg
+
+- [FFmpeg_Compilation_Guide](http://blog.csdn.net/leixiaohua1020/article/details/15811977)
+- [New_libx265_not_found_in_configure](https://trac.ffmpeg.org/ticket/5050)
+- [FFMPEG视音频编解码零基础学习方法](https://trac.ffmpeg.org/wiki/CompilationGuide)
+
 ### Usefull
 
+- [learncpp](http://www.learncpp.com/)
 - [cplusplus](http://www.cplusplus.com/)
 - [cppreference](http://en.cppreference.com/w/)
 - [runoob](http://www.runoob.com/)
@@ -28,3 +37,11 @@
 ### Tools
 
 - [abiWord](https://www.abisource.com/)
+- [ffmpeg](http://ffmpeg.org/)
+- [vlc-qt](https://vlc-qt.tano.si/)
+- [qtav](http://www.qtav.org/)
+
+### Qt
+
+- [TreeWidget](blog.csdn.net/czyt1988/article/details/19171727)
+
