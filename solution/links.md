@@ -34,6 +34,9 @@
 - [regex_lib](http://regexlib.com/?AspxAutoDetectCookieSupport=1)
 - [color_design](http://colorhunt.co/)
 - [online_write](http://www.zenpen.io/)
+- [iconfinder](https://www.iconfinder.com/)
+- [microsoft_docs](https://docs.microsoft.com/en-us/)
+- [tutorialspoint](https://www.tutorialspoint.com/index.htm)
 
 ### Tools
 
@@ -41,11 +44,13 @@
 - [ffmpeg](http://ffmpeg.org/)
 - [vlc-qt](https://vlc-qt.tano.si/)
 - [qtav](http://www.qtav.org/)
+- [qmlWeb](https://qmlweb.github.io/)
 
 ### Qt
 
 - [TreeWidget](blog.csdn.net/czyt1988/article/details/19171727)
-- [Esc Key Event](http://blog.csdn.net/liang19890820/article/details/50357323)
+- [Esc_Key_Event](http://blog.csdn.net/liang19890820/article/details/50357323)
+- [Loading Large Image](http://wiki.qt.io/Loading_Large_Images)
 
 ### Linux
 
